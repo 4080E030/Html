@@ -13,16 +13,16 @@
 ## id Selector
 ```html
 ```
-##class Selector 
+## class Selector 
 ```html
 ```
-##Grouping Selector 
+## Grouping Selector 
 ```html
 ```
 ## Descendant Selector 
 ```html
 ```
-##(mixed Selector)
+## (mixed Selector)
 ```html
 ```
 ## Attribute Selector 
