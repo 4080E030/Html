@@ -50,6 +50,18 @@ css裡面為
   font-size: 3rem;
 }
 font-size 為字的大小
+
+還有例如有一個<h1> 和一個<p> 兩個的class都一樣，我們也可以單獨改屬性，例如
+<h2 class="blueText">&#9857;</h2>
+<p class="blueText">&#9861;</p>  
+  一個為h2一個為p
+ 在Css裡面我們就使用
+h2.blueText{
+  color: blue;
+}
+p.blueText{
+  color: blue;
+}
 ```
 ## Grouping Selector 
 ```html
