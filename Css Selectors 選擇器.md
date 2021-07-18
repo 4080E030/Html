@@ -7,13 +7,13 @@
 米字號可以讓全部的網站都變成你要變成的樣式
 例如我設定成 color:green; 就代表說我網站內的文字都會變成綠色
 ```
-##element Selector 
+## element Selector 
 ```html
 ```
 ## id Selector
 ```html
 ```
-## class Selector 
+##class Selector 
 ```html
 ```
 ##Grouping Selector 
