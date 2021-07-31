@@ -131,4 +131,23 @@ tr:nth-child(2) {
 ```
 ## Pseudo Element 
 ```html
+Pseudo Element 是個可以一次性的來幫你加一些符號或是其他想加的文字
+例如:
+P::before {
+  content: ">>";
+  color: red;
+}
+這樣子就會在我們的P前面加入你想加的東西，顏色你也可以自己更改 before也是前面的意思
+範例2:
+h1::after{
+  content: "↕	";
+  color: red;
+}
+after則是在前面
+
+p::first-letter {
+  font-size: 2.5rem;
+} 
+first-letter則是第一個字
+  font-size則是字會放大幾倍 2.5就2.5倍
 ```
