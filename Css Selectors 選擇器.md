@@ -151,3 +151,12 @@ p::first-letter {
 first-letter則是第一個字
   font-size則是字會放大幾倍 2.5就2.5倍
 ```
+## 反白
+```html
+可以在css裡面填寫
+
+*::selection {
+  background-color: blue;
+}
+*selection為選取得意思，後面顏色可以自己調整
+```
