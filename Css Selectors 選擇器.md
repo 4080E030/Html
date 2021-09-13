@@ -161,3 +161,12 @@ first-letter則是第一個字
 *selection為選取得意思，後面顏色可以自己調整
 ```
 ![image](https://user-images.githubusercontent.com/55682616/131243889-ca10ac48-966b-4c12-8dab-35d7d09bc4ce.png)
+
+## 整理CSS RUles 
+```
+1.Cascade 階級 ---> 兩個Css的Selector有相同的特定度 => Cascading rule 
+2.specificity 
+3.inheritance ->inherited from parent (來至於父母)
+              ->non-inherited(by default) (來至於瀏覽器本身有的)
+inline styling > id > class > element selector > inheritance   
+```
