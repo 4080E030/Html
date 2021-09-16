@@ -13,7 +13,7 @@ pc	picas (1pc = 12 pt)
 
 ``` 
 ## 2.text-align (文字置中,靠左,靠右那類的)
-```html 
+```css
  p{
     text-dercoration:line-through;       字中間有橫線的
     }
