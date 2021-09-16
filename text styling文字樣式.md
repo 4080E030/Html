@@ -14,15 +14,15 @@ pc	picas (1pc = 12 pt)
 ``` 
 ## 2.text-align (文字置中,靠左,靠右那類的)
 ```css
- p{
-    text-dercoration:line-through;       字中間有橫線的
-    }
-    dercoration 裝飾的意思
-    p{
+  p{
+    text-dercoration:line-through;        字中間有橫線的
+   }
+    dercoration                           裝飾的意思
+  p{
     text-dercoration:underline;           底線
-    }
-   a{
-     text-decoration: none;            把a這個變色 我們的a也是youtube,google的網址可以使那個變色
+   }
+  a{
+     text-decoration: none;               把a這個變色 我們的a也是youtube,google的網址可以使那個變色
      color:coral;  
    }
 ```
