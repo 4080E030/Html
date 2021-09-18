@@ -18,18 +18,54 @@ pc	picas (1pc = 12 pt)
     text-dercoration:line-through;        字中間有橫線的
    }
     dercoration                           裝飾的意思
-  p{
-    text-dercoration:underline;           底線
-   }
+ 
   a{
      text-decoration: none;               把a這個變色 我們的a也是youtube,google的網址可以使那個變色
      color:coral;  
    }
 ```
 ## 3.text-decoration(underline,none,line-throught)
+```
+ p{
+    text-dercoration:underline;           底線
+   }
+```
 ## 4.line-height(行高)
-## 5.letter spacing(字的距離,格多遠)
+```css
+/* Keyword value */
+line-height: normal;
 
+/* Unitless values: use this number multiplied
+by the element's font size */
+line-height: 3.5;
+
+/* <length> values */
+line-height: 3em;
+
+/* <percentage> values */
+line-height: 34%;
+
+/* Global values */
+line-height: inherit; (繼承，之前設定好的值可以直接使用inherit)
+line-height: initial;
+line-height: revert;
+line-height: unset;
+```
+## 5.letter spacing(字的距離,格多遠)
+```css
+/* Keyword value */
+letter-spacing: normal;
+
+/* <length> values */
+letter-spacing: 0.3em; 
+letter-spacing: 3px;
+letter-spacing: .3px;
+
+/* Global values */
+letter-spacing: inherit;
+letter-spacing: initial;
+letter-spacing: unset;
+```
 ## 6.font-family(lt's safer to use a font stack,which is an order of fonts.)(字體)
 ```html 
 如果想測試字體的話可以使用 
