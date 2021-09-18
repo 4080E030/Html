@@ -50,6 +50,8 @@ line-height: inherit; (繼承，之前設定好的值可以直接使用inherit)
 line-height: initial;
 line-height: revert;
 line-height: unset;
+```
+```
 https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 ```
 ## 5.letter spacing(字的距離,格多遠)
@@ -66,6 +68,8 @@ letter-spacing: .3px;
 letter-spacing: inherit;
 letter-spacing: initial;
 letter-spacing: unset;
+```
+```
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/letter-spacing
 ```
 ## 6.font-family(lt's safer to use a font stack,which is an order of fonts.)(字體)
@@ -80,6 +84,8 @@ p{
 font-family: 'Courier New', Courier, monospace;     後面的'Courier New', Courier, monospace;可以自行挑選看自己喜歡什麼自己可以去看看
 }
 這網址是可以看在什麼作業系統所擁有的字體:
+```
+```
 https://www.cssfontstack.com/
 ```
 ## 7.text-indent (字前面的空格)
