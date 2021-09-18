@@ -25,7 +25,7 @@ pc	picas (1pc = 12 pt)
    }
 ```
 ## 3.text-decoration(underline,none,line-throught)
-```
+```css
  p{
     text-dercoration:underline;           底線
    }
@@ -43,13 +43,14 @@ line-height: 3.5;
 line-height: 3em;
 
 /* <percentage> values */
-line-height: 34%;
+line-height: 34%; 
 
 /* Global values */
 line-height: inherit; (繼承，之前設定好的值可以直接使用inherit)
 line-height: initial;
 line-height: revert;
 line-height: unset;
+https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 ```
 ## 5.letter spacing(字的距離,格多遠)
 ```css
@@ -65,13 +66,15 @@ letter-spacing: .3px;
 letter-spacing: inherit;
 letter-spacing: initial;
 letter-spacing: unset;
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/letter-spacing
 ```
 ## 6.font-family(lt's safer to use a font stack,which is an order of fonts.)(字體)
 ```html 
 如果想測試字體的話可以使用 
 <p>lorem 10 <p> 或是20 以此類推，如此一來就可以產生一些英文字，但那算是亂碼可以用來測試字體的
 
- EX:<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus obcaecati fugit dolor, quibusdam reprehenderit facere sint suscipit quas voluptates! Sequi blanditiis voluptatibus iste obcaecati, repellat error debitis labore ad.</p> 
+ EX:<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi minus obcaecati fugit dolor, quibusdam reprehenderit facere sint suscipit quas 
+    voluptates! Sequi blanditiis voluptatibus iste obcaecati, repellat error debitis labore ad.</p> 
 後面再去到CSS裡面 
 p{
 font-family: 'Courier New', Courier, monospace;     後面的'Courier New', Courier, monospace;可以自行挑選看自己喜歡什麼自己可以去看看
