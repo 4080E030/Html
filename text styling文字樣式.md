@@ -83,11 +83,12 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/letter-spacing
 p{
 font-family: 'Courier New', Courier, monospace;     後面的'Courier New', Courier, monospace;可以自行挑選看自己喜歡什麼自己可以去看看
 }
-這網址是可以看在什麼作業系統所擁有的字體:
 ```
 ```
-https://www.cssfontstack.com/
+這網址是可以看在什麼作業系統所擁有的字體:https://www.cssfontstack.com/
+可以查看google的字型:https://fonts.google.com/
 ```
 ## 7.text-indent (字前面的空格)
 ```
+text-indent: 30px;
 ``` 
