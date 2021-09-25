@@ -1,13 +1,13 @@
-#background-color
+# background-color
 ```
 ```
-#background-image
+# background-image
 ```
 ```
 
-#background-size:cover;
+# background-size:cover;
 ```
 ```
-#background-position:center;/*or bottom or top*/
+# background-position:center;/*or bottom or top*/
 ```
 ```
