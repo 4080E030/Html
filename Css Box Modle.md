@@ -1,7 +1,7 @@
 # what is Box?
  ## 1.content(內容)
   ### padding種類
-  ```css
+  ```html
     /* 
     padding 範例
     最無腦 設定
