@@ -1,7 +1,7 @@
 # what is Box?
  ## 1.content(內容)
   ### padding種類
-  ```html
+  ```Css
     /* 
     padding 範例
     最無腦 設定
@@ -25,7 +25,6 @@
     第三個為上下左右一起
     Ex:padding:3px;
     */
-
   ```
  ## 2.padding(間距)
  ## 3.border(外框)
